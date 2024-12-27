@@ -257,12 +257,19 @@
 
 .mobile-menu__item {
     border-top: 0.1rem var(--color-line-grey) solid;
-    padding: 2rem 0;
     position: relative;
 }
 
 .mobile-menu__link {
+    display: block;
     text-decoration: none;
+    padding: 2rem 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.mobile-menu__link:hover {
+    background: var(--color-line-grey);
 }
 
 /* Mobile submenu */

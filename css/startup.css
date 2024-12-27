@@ -1,6 +1,7 @@
 /* This is the main CSS file we 'require' on our top level Page.ss template */
 @import 'fonts.css';
 @import 'base.css';
+@import 'layout.css';
 @import 'breadcrumbs.css';
 @import 'button.css';
 @import 'colors.css';
@@ -14,3 +15,4 @@
 @import 'block.css';
 @import 'section.css';
 @import 'footer.css';
+@import 'silverstripe-navigator.css';

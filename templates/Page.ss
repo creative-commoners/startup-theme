@@ -15,6 +15,7 @@
     <% include Header %>
     $Layout
     <% include Footer %>
-    <script type="module" src="{$resourceURL('themes/startup/js/startup.js')}" defer></script>
+    <% if $HasPerm('CMS_ACCESS') %>$SilverStripeNavigator<% end_if %>
+    <script type="module" src="{$themedResourceURL('js/startup.js')}" defer></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 
     <div class="container container--header">
         <a href="$baseURL" class="logo" aria-label="Home">
-            <img src="$resourceURL('themes/startup/images/logo--white.svg')" width="117" height="22" alt="">
+            <img src="$themedResourceURL('images/logo--white.svg')" width="117" height="22" alt="">
         </a>
 
         <%-- Desktop menu --%>
@@ -37,7 +37,7 @@
         <%-- Mobile menu --%>
         <nav class="nav nav--mobile" aria-label="Main">
             <a href="$BaseHref" class="logo logo--mobile">
-                <img class="logo__image" src="$resourceURL('themes/startup/images/logo--black.svg')" width="117" height="22" alt="{$SiteConfig.Title}">
+                <img class="logo__image" src="$themedResourceURL('images/logo--black.svg')" width="117" height="22" alt="{$SiteConfig.Title}">
             </a>
             <ul class="mobile-menu" data-accordion>
                 <% loop $Menu(1) %>
